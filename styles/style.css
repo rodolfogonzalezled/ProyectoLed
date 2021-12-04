@@ -1,0 +1,480 @@
+/* ---------- reset de css antes de iniciar ------------*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/* -------------- estilos generales ------------*/
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.title-section {
+    color: white;
+    font-size: xx-large;
+    text-shadow: -1px 0 black, 1px 0 black, 0 1px black, 0 -1px black;
+    text-align: center;
+}
+
+.sections {
+    margin: 3% 0;
+}
+
+/* ------------------ estilos del header---------------*/
+.header {
+    font-size: larger;
+    background-color: #4b6587;
+}
+
+.header__logo {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.header__logo:hover {
+    animation: pulse;
+    /* nombre de animacion */
+    animation-duration: 2s;
+    /* duracion de animacion */
+}
+
+.menu-end {
+    justify-content: end;
+}
+
+/* ------------------ estilos del body---------------*/
+.body {
+    background-color: rgba(145, 140, 136, 0.25);
+    /* width: 100%; */
+}
+
+/* ------------------ estilos de inicio---------------*/
+.conectivity {
+    background-color: white;
+    padding: 5% 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conectivity i {
+    font-size: 10rem;
+}
+
+.conectivity i:hover {
+    transform: scale(1.5);
+}
+
+.home__text {
+    display: flex;
+    height: 100%;
+    font-size: x-large;
+    text-align: center;
+    align-items: center;
+}
+
+/* ----------------- Services ----------------------*/
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.services__item {
+    width: 27%;
+    background-color: rgb(145 140 136 / 23%);
+    border-radius: 3%;
+}
+
+.services__item--title {
+    font-size: larger;
+    text-align: center;
+}
+
+.services p {
+    text-align: justify;
+}
+
+.services i {
+    font-size: 16rem;
+    padding: 12% 0;
+    align-self: center;
+}
+
+.services i:hover {
+    animation: headShake;
+    /* nombre de animacion */
+    animation-duration: 2s;
+    /* duracion de animacion */
+}
+
+/* ----------------- Products ---------------------*/
+.products {
+    border-radius: 5%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.products__info {
+    border-top: outset;
+}
+
+.products__img {
+    width: 80%;
+    height: 80%;
+    align-self: center;
+    padding: 5% 0;
+}
+
+.products__img:hover {
+    transform: scale(1.1);
+}
+
+/* ----------------- Galery -----------------------*/
+.galery-item {
+    background-color: rgb(145 140 136 / 23%);
+    height: 95%;
+    border-radius: 3%;
+    text-align: center;
+}
+
+.galery-img {
+    width: 100%;
+    height: 85%;
+    padding: 5%;
+}
+
+.galery-img:hover {
+    transform: scale(1.05);
+}
+
+.galery-info {
+    background-color: rgb(145 140 136 / 23%);
+    display: flex;
+    padding: 2%;
+    border-radius: 2.5%;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.galery-vid {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+/* -------------------- Contact -----------------*/
+.section-contact {
+    padding-bottom: 3%;
+}
+
+.contact {
+    background-color: rgb(145 140 136 / 23%);
+    border-radius: 1rem;
+    padding: 3% 0;
+}
+
+.contact__reason-form {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.contact__buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact__map {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.map {
+    width: 100%;
+}
+
+/* --------------- estilos del footer------------*/
+.footer {
+    background-color: #4b6587;
+    padding: 1rem 0;
+    color: white;
+    text-align: center;
+}
+
+.footer__row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-submit {
+    width: 100%;
+    font-size: small;
+}
+
+.footer__form input {
+    width: 100%;
+    height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer__social {
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 3em;
+}
+
+.footer__social a {
+    margin-left: 0.5rem;
+}
+
+.footer__social a:hover {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.footer__firm {
+    padding-top: 3%;
+}
+
+/* --------------MEDIA QUERIES --------1200px--------*/
+@media screen and (max-width: 1200px) {
+
+    /* media inicio 1200*/
+    .header {
+        grid-template-columns: 30% 70%;
+    }
+
+    .home__text {
+        font-size: xx-large;
+    }
+
+    /* media services 1200 */
+    .services__item {
+        width: 45%;
+        margin-bottom: 3%;
+    }
+
+    .services i {
+        padding: 7% 0;
+    }
+}
+
+/* --------------MEDIA QUERIES --------768px--------*/
+/* media inicio */
+@media screen and (max-width: 768px) {
+    .header {
+        grid-template-columns: 30% 70%;
+        font-size: small;
+    }
+
+    .home__text {
+        font-size: x-large;
+    }
+
+    .conectivity i {
+        font-size: 3rem;
+    }
+
+    /* media services 768*/
+    .services__item {
+        width: 45%;
+        margin-bottom: 10%;
+    }
+
+    /* media contact 768*/
+    .contact__map {
+        padding-top: 10%;
+    }
+
+    /* media footer 768*/
+    .footer__form {
+        width: 32%;
+    }
+
+    .footer__social {
+        font-size: 2rem;
+    }
+}
+
+/* --------------MEDIA QUERIES --------480px--------*/
+@media screen and (max-width: 480px) {
+
+    /* media inicio 480 */
+    .header {
+        grid-template-columns: 50% 50%;
+    }
+
+    .header nav ul {
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+    }
+
+    .header nav ul li {
+        display: flex;
+        font-size: small;
+    }
+
+    .home__text {
+        font-size: small;
+    }
+
+    /* media services 480 */
+    .services__item {
+        width: 80%;
+    }
+
+    .services i {
+        font-size: 8rem;
+        padding: 6% 0;
+        align-self: center;
+    }
+
+    /* media galery 480 */
+    .galery-img {
+        width: 100%;
+        height: 85%;
+        padding: 5%;
+    }
+
+    /* media contact 480*/
+    .contact__map {
+        padding-top: 15%;
+    }
+
+    /* media footer 480 */
+    .footer__form {
+        width: 45%;
+    }
+
+    .footer__row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 20%;
+    }
+
+    .footer__social {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        font-size: 1.5rem;
+    }
+
+    .footer__firm {
+        font-size: smaller;
+        padding: 5%;
+    }
+
+    .footer__form input {
+        height: 1.5rem;
+    }
+
+    .footer__form button {
+        height: 1.5em;
+        line-height: 1em;
+    }
+
+    .label-submit {
+        width: 100%;
+        font-size: xx-small;
+    }
+}
