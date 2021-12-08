@@ -1,6 +1,6 @@
 /* ----------------- Galery -----------------------*/
 .galery-item {
-    background-color: rgba(145, 140, 136, 0.23);
+    background-color: $color-secundary;
     height: 95%;
     border-radius: 3%;
     text-align: center;
@@ -16,7 +16,7 @@
 }
 
 .galery-info {
-    background-color: rgba(145, 140, 136, 0.23);
+    background-color: $color-secundary;
     display: flex;
     padding: 2%;
     border-radius: 2.5%;

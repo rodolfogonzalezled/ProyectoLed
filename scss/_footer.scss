@@ -1,8 +1,8 @@
 /* --------------- estilos del footer------------*/
 .footer {
-    background-color: #4b6587;
+    background-color: $color-primary;
     padding: 1rem 0;
-    color: white;
+    color: $color-blanco;
     text-align: center;
     
     &__row {
@@ -35,7 +35,7 @@
             margin-left: 0.5rem;
 
             &:hover {
-                color: rgba(255, 255, 255, 0.55);
+                color: $color-white-hover;
             }
         }
     }

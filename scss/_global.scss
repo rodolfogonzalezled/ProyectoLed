@@ -93,13 +93,13 @@ video {
 /* -------------- estilos generales ------------*/
 a {
     text-decoration: none;
-    color: white;
+    color: $color-blanco;
 }
 
 .title-section {
-    color: white;
+    color: $color-blanco;
     font-size: xx-large;
-    text-shadow: -2px 0 black, 1px 0 black, 0 1px black, 0 -1px black;
+    text-shadow: $shadow-title;
     text-align: center;
 }
 
@@ -108,5 +108,5 @@ a {
 }
 
 .body {
-    background-color: rgba(145, 140, 136, 0.25);
+    background-color: $color-body;
 }
