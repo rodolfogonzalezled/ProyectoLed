@@ -227,7 +227,7 @@ a {
   .footer__form {
     display: flex;
     flex-direction: column; }
-    .footer__forminput {
+    .footer__form input {
       width: 100%;
       height: 1.5rem;
       margin-bottom: 0.5rem; }
