@@ -1,0 +1,32 @@
+/* -------------------- Contact -----------------*/
+.section-contact {
+    padding-bottom: 3%;
+}
+
+.contact {
+    background-color: rgba(145, 140, 136, 0.23);
+    border-radius: 1rem;
+    padding: 3% 0;
+
+    &__reason-form {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    
+    &__buttons {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    &__map {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+}
+
+.map {
+    width: 100%;
+}

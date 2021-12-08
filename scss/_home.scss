@@ -1,0 +1,21 @@
+/* ------------------ estilos de inicio---------------*/
+.conectivity {
+    background-color: white;
+    padding: 5% 0;
+    display: flex;
+    justify-content: space-around;
+    & i {
+        font-size: 10rem;
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
+}
+
+.home__text {
+    display: flex;
+    height: 100%;
+    font-size: x-large;
+    text-align: center;
+    align-items: center;
+}

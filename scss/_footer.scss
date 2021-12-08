@@ -1,0 +1,51 @@
+/* --------------- estilos del footer------------*/
+.footer {
+    background-color: #4b6587;
+    padding: 1rem 0;
+    color: white;
+    text-align: center;
+    
+    &__row {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    &__form {
+        display: flex;
+        flex-direction: column;
+
+        &input {
+            width: 100%;
+            height: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+    }
+    
+    &__social {
+        width: 50%;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 3em;
+
+        & a {
+            margin-left: 0.5rem;
+
+            &:hover {
+                color: rgba(255, 255, 255, 0.55);
+            }
+        }
+    }
+    
+    &__firm {
+        padding-top: 3%;
+    }
+
+    .label-submit {
+        width: 100%;
+        font-size: small;
+    }
+}
+
