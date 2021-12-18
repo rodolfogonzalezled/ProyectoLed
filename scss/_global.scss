@@ -110,3 +110,14 @@ a {
 .body {
     background-color: $color-body;
 }
+
+//extend
+.flex-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}

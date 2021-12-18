@@ -16,12 +16,11 @@
 }
 
 .galery-info {
+    @include flex-center;
     background-color: $color-secundary;
-    display: flex;
     padding: 2%;
     border-radius: 2.5%;
     flex-direction: column;
-    text-align: center;
     margin-bottom: 3%;
 }
 

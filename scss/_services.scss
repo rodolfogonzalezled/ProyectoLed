@@ -1,7 +1,6 @@
 /* ----------------- Services ----------------------*/
 .services {
-    display: flex;
-    justify-content: space-evenly;
+    @extend .flex-evenly;
     flex-wrap: wrap;
 
     &__item {

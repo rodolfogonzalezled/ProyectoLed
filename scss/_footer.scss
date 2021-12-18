@@ -24,11 +24,10 @@
     }
     
     &__social {
+        @include flex-center;
         width: 50%;
         list-style: none;
-        display: flex;
         justify-content: flex-end;
-        align-items: center;
         font-size: 3em;
 
         & a {

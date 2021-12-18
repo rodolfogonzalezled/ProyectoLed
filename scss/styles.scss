@@ -1,10 +1,11 @@
-@import "global";
+@import "variables";
+@import "mixins";
 @import "home";
 @import "services";
 @import "products";
 @import "galery";
 @import "contact";
 @import "footer";
-@import "@mediaqueries";
 @import "header";
-@import "variables";
+@import "global";
+@import "@mediaqueries";

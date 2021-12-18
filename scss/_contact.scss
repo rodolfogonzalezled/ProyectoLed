@@ -9,21 +9,18 @@
     padding: 3% 0;
 
     &__reason-form {
-        display: flex;
-        justify-content: space-evenly;
+        @extend .flex-evenly;
         width: 100%;
     }
     
     &__buttons {
-        display: flex;
-        justify-content: space-evenly;
+        @extend .flex-evenly;
     }
     
     &__map {
-        display: flex;
+        @include flex-center;
         flex-direction: column;
         justify-content: space-between;
-        text-align: center;
     }
 }
 

@@ -2,8 +2,7 @@
 .conectivity {
     background-color: $color-blanco;
     padding: 5% 0;
-    display: flex;
-    justify-content: space-around;
+    @extend .flex-around;
     & i {
         font-size: 10rem;
         &:hover {
@@ -13,9 +12,8 @@
 }
 
 .home__text {
-    display: flex;
+    @include flex-center;
     height: 100%;
     font-size: x-large;
-    text-align: center;
     align-items: center;
 }
