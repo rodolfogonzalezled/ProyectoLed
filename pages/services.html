@@ -25,7 +25,11 @@
     <!-- css local -->
     <link rel="stylesheet" href="../css/styles.css">
 </head>
+
 <body class="body">
+    <button onclick="topFunction()" id="button-to-top" title="Boton ir a Arriba"> 
+        <i class="bi bi-arrow-up"></i>
+    </button>
     <header class="header">
         <!-- Menu de Navegación -->
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -87,6 +91,24 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script> // Script para el boton de Volver a principio de pagina del sitio
+        // Se obtiene el boton por el id
+        var buttonTop = document.getElementById("button-to-top");
+        // Cuando el usuario hace scroll hacia abajo de 30px desde el inicio de pagina, se visualiza el boton
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+                buttonTop.style.display = "block";
+            } else {
+                buttonTop.style.display = "none";
+            }
+        }
+        // Cuando el usuario hace click sobre el boton, se hace un scroll al inicio de la pagina
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 <!-- ---------------------- Pie de Pagina --------------------- -->
 <footer class="footer">
