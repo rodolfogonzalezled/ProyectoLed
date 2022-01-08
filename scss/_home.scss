@@ -3,8 +3,10 @@
     background-color: $color-blanco;
     padding: 5% 0;
     @extend .flex-around;
+
     & i {
         font-size: 10rem;
+
         &:hover {
             transform: scale(1.5);
         }

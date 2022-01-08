@@ -12,11 +12,11 @@
         @extend .flex-evenly;
         width: 100%;
     }
-    
+
     &__buttons {
         @extend .flex-evenly;
     }
-    
+
     &__map {
         @include flex-center;
         flex-direction: column;

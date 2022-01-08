@@ -28,7 +28,7 @@
 </head>
 
 <body class="body">
-    <button onclick="topFunction()" id="button-to-top" title="Boton ir a Arriba"> 
+    <button onclick="topFunction()" id="button-to-top" title="Boton ir a Arriba">
         <i class="bi bi-arrow-up"></i>
     </button>
     <header class="header">
@@ -97,7 +97,7 @@
         <i class="bi bi-bluetooth"></i>
         <i class="bi bi-plug-fill"></i>
     </div>
-    <div class="container">
+    <div class="container pt-5 pb-5">
         <div class="row">
             <div class="item1 col-4">
                 <h1 class="home__text">
@@ -108,7 +108,7 @@
                 <img src="images/carousel3.jpg" width="100%" alt="led">
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-4">
             <div class="item1 col-6">
                 <img src="images/app-led.jpg" width="100%" alt="app">
             </div>
@@ -122,15 +122,18 @@
     </div>
     <!-- contenedor grid -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous">
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 
-    <script> // Script para el boton de Volver a principio de pagina del sitio
+    <script>
+        // Script para el boton de Volver a principio de pagina del sitio
         // Se obtiene el boton por el id
         var buttonTop = document.getElementById("button-to-top");
         // Cuando el usuario hace scroll hacia abajo de 30px desde el inicio de pagina, se visualiza el boton
-        window.onscroll = function () { scrollFunction() };
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
         function scrollFunction() {
             if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
                 buttonTop.style.display = "block";

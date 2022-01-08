@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Led, cinta led, luces led, rgb, bombilla led, cinta rgb, led wifi">
-    <meta name="description" content="La tecnología LED es la solución perfecta para iluminación en general, ahorradora y eficiente,
+    <meta name="description"
+        content="La tecnología LED es la solución perfecta para iluminación en general, ahorradora y eficiente,
     ideal para personalizar tus espacios con distintos colores de luces gracias a cintas, bombillas y focos led rgb que podras controlar desde tu dispositivo móvil o con control remoto">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +29,7 @@
 </head>
 
 <body class="body">
-    <button onclick="topFunction()" id="button-to-top" title="Boton ir a Arriba"> 
+    <button onclick="topFunction()" id="button-to-top" title="Boton ir a Arriba">
         <i class="bi bi-arrow-up"></i>
     </button>
     <header class="header">
@@ -171,13 +173,17 @@
     </div>
     <!-- fin de contenedor grid -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-    <script> // Script para el boton de Volver a principio de pagina del sitio
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script>
+        // Script para el boton de Volver a principio de pagina del sitio
         // Se obtiene el boton por el id
         var buttonTop = document.getElementById("button-to-top");
         // Cuando el usuario hace scroll hacia abajo de 30px desde el inicio de pagina, se visualiza el boton
-        window.onscroll = function () { scrollFunction() };
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
         function scrollFunction() {
             if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
                 buttonTop.style.display = "block";
@@ -217,4 +223,5 @@
         <p> Iluminación Led Pro © 2021. Todos los derechos Reservados. </p>
     </div>
 </footer>
+
 </html>
