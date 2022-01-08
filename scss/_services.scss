@@ -25,10 +25,10 @@
         align-self: center;
 
         &:hover {
-            animation: headShake;
             /* nombre de animacion */
-            animation-duration: 2s;
+            animation: headShake;
             /* duracion de animacion */
+            animation-duration: 2s;
         }
     }
 }
