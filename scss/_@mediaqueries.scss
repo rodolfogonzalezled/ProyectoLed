@@ -7,7 +7,7 @@
     }
 
     .home__text {
-        font-size: xx-large;
+        font-size: 1.3em;
     }
 
     /* media services 1200 */
@@ -30,7 +30,8 @@
     }
 
     .home__text {
-        font-size: x-large;
+        height: 95%;
+        font-size: 1em;
     }
 
     .conectivity i {
@@ -78,7 +79,8 @@
     }
 
     .home__text {
-        font-size: small;
+        height: 90%;
+        font-size: 0.5em;
     }
 
     /* media services 480 */
@@ -125,12 +127,12 @@
     }
 
     .footer__firm {
-        font-size: smaller;
+        font-size:x-small;
         padding: 5%;
     }
 
     .footer__form input {
-        height: 1.5rem;
+        height: 1.3rem;
     }
 
     .footer__form button {
@@ -140,6 +142,6 @@
 
     .label-submit {
         width: 100%;
-        font-size: xx-small;
+        font-size: xxx-small;
     }
 }

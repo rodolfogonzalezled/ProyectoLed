@@ -11,8 +11,9 @@
   display: flex;
   text-align: center;
   height: 100%;
-  font-size: x-large;
-  align-items: center; }
+  font-size: 2.2em;
+  align-items: center;
+  line-height: 1.6; }
 
 /* ----------------- Services ----------------------*/
 .services {
@@ -32,25 +33,33 @@
     padding: 12% 0;
     align-self: center; }
     .services i:hover {
-      animation: headShake;
       /* nombre de animacion */
-      animation-duration: 2s;
-      /* duracion de animacion */ }
+      animation: headShake;
+      /* duracion de animacion */
+      animation-duration: 2s; }
 
 /* ----------------- Products ---------------------*/
 .products {
   border-radius: 5%;
   text-align: center;
-  margin-bottom: 10%; }
+  margin-bottom: 10%;
+  height: 95%; }
   .products__info {
     border-top: outset; }
   .products__img {
     width: 80%;
-    height: 80%;
     align-self: center;
     padding: 5% 0; }
     .products__img:hover {
       transform: scale(1.1); }
+
+.card-title {
+  font-weight: bolder; }
+
+.card-text {
+  margin: 7%;
+  text-align: justify;
+  line-height: 1.2; }
 
 /* ----------------- Galery -----------------------*/
 .galery-item {
@@ -289,7 +298,7 @@ a {
   .header {
     grid-template-columns: 30% 70%; }
   .home__text {
-    font-size: xx-large; }
+    font-size: 1.3em; }
   /* media services 1200 */
   .services__item {
     width: 45%;
@@ -304,7 +313,8 @@ a {
     grid-template-columns: 30% 70%;
     font-size: small; }
   .home__text {
-    font-size: x-large; }
+    height: 95%;
+    font-size: 1em; }
   .conectivity i {
     font-size: 3rem; }
   /* media services 768*/
@@ -333,7 +343,8 @@ a {
     display: flex;
     font-size: small; }
   .home__text {
-    font-size: small; }
+    height: 90%;
+    font-size: 0.5em; }
   /* media services 480 */
   .services__item {
     width: 80%; }
@@ -364,13 +375,13 @@ a {
     margin-top: 5%;
     font-size: 1.5rem; }
   .footer__firm {
-    font-size: smaller;
+    font-size: x-small;
     padding: 5%; }
   .footer__form input {
-    height: 1.5rem; }
+    height: 1.3rem; }
   .footer__form button {
     height: 1.5em;
     line-height: 1em; }
   .label-submit {
     width: 100%;
-    font-size: xx-small; } }
+    font-size: xxx-small; } }
