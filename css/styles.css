@@ -317,8 +317,7 @@ a {
     grid-template-columns: 30% 70%;
     font-size: small; }
   .home__text {
-    height: 95%;
-    font-size: 1em; }
+    font-size: 1.2em; }
   .conectivity i {
     font-size: 3rem; }
   /* media services 768*/
@@ -347,8 +346,7 @@ a {
     display: flex;
     font-size: small; }
   .home__text {
-    height: 90%;
-    font-size: 0.8em; }
+    font-size: 0.9em; }
   /* media services 480 */
   .services__item {
     width: 80%; }
