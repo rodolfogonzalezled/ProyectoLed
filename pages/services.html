@@ -96,56 +96,56 @@
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
-    <script>
-        // Script para el boton de Volver a principio de pagina del sitio
-        // Se obtiene el boton por el id
-        var buttonTop = document.getElementById("button-to-top");
-        // Cuando el usuario hace scroll hacia abajo de 30px desde el inicio de pagina, se visualiza el boton
-        window.onscroll = function () {
-            scrollFunction()
-        };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-                buttonTop.style.display = "block";
-            } else {
-                buttonTop.style.display = "none";
-            }
-        }
-        // Cuando el usuario hace click sobre el boton, se hace un scroll al inicio de la pagina
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
-</body>
-<!-- ---------------------- Pie de Pagina --------------------- -->
-<footer class="footer">
-    <div class="footer__row">
-        <form class="footer__form">
-            <p class="label-submit"> Para recibir promociones e información:</p>
-            <input type="email" class="form-control" id="email" placeholder="Email">
-            <button type="submit" class="btn btn-outline-light btn-sm">Suscribirse</button>
-        </form>
-        <div class="footer__social">
-            <!-- imagenes de redes sociales en pie de pagina-->
-            <a aria-label="Instagram" href="https://www.instagram.com/?hl=es">
-                <i class="bi bi-instagram"></i>
-            </a>
-            <a aria-label="Facebook" href="https://es-la.facebook.com/">
-                <i class="bi bi-facebook"></i>
-            </a>
-            <a aria-label="Twitter" href="https://twitter.com/?lang=es">
-                <i class="bi bi-twitter"></i>
-            </a>
+    <!-- ---------------------- Pie de Pagina --------------------- -->
+    <footer class="footer">
+        <div class="footer__row">
+            <form class="footer__form">
+                <p class="label-submit"> Para recibir promociones e información:</p>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+                <button type="submit" class="btn btn-outline-light btn-sm">Suscribirse</button>
+            </form>
+            <div class="footer__social">
+                <!-- imagenes de redes sociales en pie de pagina-->
+                <a aria-label="Instagram" href="https://www.instagram.com/?hl=es">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a aria-label="Facebook" href="https://es-la.facebook.com/">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a aria-label="Twitter" href="https://twitter.com/?lang=es">
+                    <i class="bi bi-twitter"></i>
+                </a>
+            </div>
         </div>
-    </div>
-    <div class="footer__firm">
-        <p> Iluminación Led Pro © 2021. Todos los derechos Reservados. </p>
-    </div>
-</footer>
+        <div class="footer__firm">
+            <p> Iluminación Led Pro © 2021. Todos los derechos Reservados. </p>
+        </div>
+    </footer>
+    <!---------------------------------------------------------------->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+<script>
+// Script para el boton de Volver a principio de pagina del sitio
+// Se obtiene el boton por el id
+var buttonTop = document.getElementById("button-to-top");
+// Cuando el usuario hace scroll hacia abajo de 30px desde el inicio de pagina, se visualiza el boton
+window.onscroll = function () {
+    scrollFunction()
+};
 
+function scrollFunction() {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+        buttonTop.style.display = "block";
+    } else {
+        buttonTop.style.display = "none";
+    }
+}
+// Cuando el usuario hace click sobre el boton, se hace un scroll al inicio de la pagina
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
 </html>
